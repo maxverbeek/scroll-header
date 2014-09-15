@@ -1,0 +1,26 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	width: 100%;
+	height: 300px;
+	background: red;
+}
+
+.collapsable
+{
+	transition: height 1s;
+	-webkit-transition: height 1s;
+}
+
+.collapsed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+}
